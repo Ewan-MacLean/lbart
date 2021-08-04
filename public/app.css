@@ -151,12 +151,19 @@ body {
 
 }
 
-@media only screen and (max-width: 632px) {
+@media only screen and (max-width: 760px) {
     #bio p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   #bio-img {
     width: 150px;
     height: 150px;
   }
 }
+
+@media only screen and (max-width: 350px) {
+  #bio-img {
+    display: none;
+  }
+}
+
