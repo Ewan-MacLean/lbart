@@ -19,9 +19,9 @@ app.get('/', (req, res) => {
 });
 
 
-// const port = process.env.PORT || 6000;
-app.listen(2000, () => {
-  console.log('Serving on port 2000')
+const port = process.env.PORT || 2000;
+app.listen(port, () => {
+  console.log(`Serving on port ${port}`)
 })
 
 
