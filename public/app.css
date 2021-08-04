@@ -135,10 +135,14 @@ body {
     .modal-content {
       width: 100%;
     }
-    #shows {
-      display: none;
-    }
   }
 
-
+@media only screen and (max-width: 1550px){
+  #shows {
+    display: none;
+  }
+  #bio {
+    width: 100%;
+  }
+}
 
