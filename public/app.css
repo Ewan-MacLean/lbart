@@ -163,7 +163,8 @@ body {
 
 @media only screen and (max-width: 655px) {
   #bio-img {
-    display: none;
+    width: 50px;
+    height: 50px;
   }
   #bio p {
     font-size: 0.7rem;
