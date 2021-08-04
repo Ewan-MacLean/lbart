@@ -145,14 +145,18 @@ body {
     width: 100%;
   }
   #bio-img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
 
 }
 
 @media only screen and (max-width: 632px) {
     #bio p {
-    font-size: 2rem;
+    font-size: 0.5rem;
+  }
+  #bio-img {
+    width: 150px;
+    height: 150px;
   }
 }
