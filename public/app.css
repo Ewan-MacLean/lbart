@@ -177,6 +177,9 @@ body {
   #bio p {
     font-size: 0.8rem;
   }
+  #email p {
+    font-size: 0.9rem;
+  }
 }
 
 
