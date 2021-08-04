@@ -170,3 +170,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  #bio-img {
+    display: none;
+  }
+  #bio p {
+    font-size: 0.7rem;
+  }
+}
+
+
+
