@@ -144,5 +144,12 @@ body {
   #bio {
     width: 100%;
   }
+  #bio-img {
+    width: 150px;
+    height: 150px;
+  }
+  /* #bio p {
+    font-size: 2rem;
+  } */
 }
 
