@@ -161,7 +161,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 453px) {
+@media only screen and (max-width: 655px) {
   #bio-img {
     display: none;
   }
