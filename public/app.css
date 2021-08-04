@@ -165,5 +165,8 @@ body {
   #bio-img {
     display: none;
   }
+  #bio p {
+    font-size: 0.7rem;
+  }
 }
 
