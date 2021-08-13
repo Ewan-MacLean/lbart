@@ -9,10 +9,11 @@ body {
 }
 
 #bio {
-    height: 500px;
+    height: fit-content;
     width: 50%;
     background-color: teal;
-    padding-top: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .bio-contents {
@@ -22,6 +23,7 @@ body {
 
 .bio-contents p {
     margin: 20px;
+    text-align: left;
 }
 
 #bio-img{
@@ -154,32 +156,46 @@ body {
 
 @media only screen and (max-width: 760px) {
     #bio p {
-    font-size: 1rem;
+    font-size: 0.7em;
   }
   #bio-img {
-    width: 150px;
-    height: 150px;
+    width: 8em;
+    height: 8em;
   }
 }
 
-@media only screen and (max-width: 655px) {
+/* mobile */
+
+@media only screen and (max-width: 430px) {
+  #bio-img {
+    display: block;
+    height: 8em;
+    width: 8em;
+  }
+  #bio p {
+    font-size: 0.6em;
+    
+  }
+  #email {
+    font-size: 0.6em;
+  }
+}
+
+
+
+/* iphone 5  */
+
+@media only screen and (max-width: 325px) {
   #bio-img {
     display: none;
   }
   #bio p {
-    font-size: 0.9rem;
+    font-size: 0.7em;
+    
   }
-}
-
-@media only screen and (max-width: 400px) {
-  #bio-img {
-    display: none;
-  }
-  #bio p {
-    font-size: 0.8rem;
-  }
-  #email p {
-    font-size: 0.9rem;
+  #email {
+    font-size: 0.7em;
+    padding-bottom: 0;
   }
 }
 

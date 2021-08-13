@@ -27,4 +27,3 @@ app.listen(port, () => {
 
 
 
-// var cl = new cloudinary.Cloudinary({cloud_name: "dhxs9jryg", secure: true});
